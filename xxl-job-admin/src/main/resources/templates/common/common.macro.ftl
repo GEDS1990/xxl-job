@@ -34,9 +34,9 @@
 </#macro>
 
 <#macro commonScript>
-	<!-- jQuery 2.1.4 -->
+	<!-- jQuery -->
 	<script src="${request.contextPath}/static/adminlte/bower_components/jquery/jquery.min.js"></script>
-	<!-- Bootstrap 3.3.5 -->
+	<!-- Bootstrap -->
 	<script src="${request.contextPath}/static/adminlte/bower_components/bootstrap/js/bootstrap.min.js"></script>
 	<!-- FastClick -->
 	<script src="${request.contextPath}/static/adminlte/bower_components/fastclick/fastclick.js"></script>
@@ -109,7 +109,7 @@
 					<form class="form-horizontal form" role="form" >
 						<div class="form-group">
 							<label for="lastname" class="col-sm-2 control-label">${I18n.change_pwd_field_newpwd}<font color="red">*</font></label>
-							<div class="col-sm-10"><input type="text" class="form-control" name="password" placeholder="${I18n.system_please_input} ${I18n.change_pwd_field_newpwd}" maxlength="100" ></div>
+							<div class="col-sm-10"><input type="text" class="form-control" name="password" placeholder="${I18n.system_please_input} ${I18n.change_pwd_field_newpwd}" maxlength="18" ></div>
 						</div>
 						<hr>
 						<div class="form-group">
